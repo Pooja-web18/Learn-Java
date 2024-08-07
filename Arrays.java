@@ -4,7 +4,7 @@ public class Arrays {
         age = new int[5]; //memory allocation
 
 //        Or we can write this
-        int age[]= new int[5]; //Declaration and Memory allocation
+//        int age[]= new int[5]; //Declaration and Memory allocation
 
 //        Initialization
         age[0] = 5;
