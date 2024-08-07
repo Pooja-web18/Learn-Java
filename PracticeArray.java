@@ -10,10 +10,10 @@ public class PracticeArray {
 
 
         //P2:Write a program to find out whether given integer is present in array or not
-        float[] marks = {45.7f, 67.8f, 63.4f, 99.3f, 100.0f};
+        float[] marks1 = {45.7f, 67.8f, 63.4f, 99.3f, 100.0f};
         float num = 45.7f;
         boolean isInArray = false;
-        for (float element : marks) {
+        for (float element : marks1) {
             if (num == element) {
                 isInArray = true;
                 break;
@@ -28,10 +28,10 @@ public class PracticeArray {
 
 
         //P3:Calculate the average marks from an array contaning marks of all student in physics using for each loop
-        float[] marks = {45.7f, 67.8f, 63.4f, 99.3f, 100.0f};
-        float sum = 0;
-        for (float element : marks) {
-            sum = sum + element;
+        float[] marks2 = {45.7f, 67.8f, 63.4f, 99.3f, 100.0f};
+        float sum1 = 0;
+        for (float element : marks2) {
+            sum1 = sum1 + element;
         }
         System.out.println("The value of Average marks is:" + sum / marks.length);
 
@@ -79,9 +79,9 @@ public class PracticeArray {
 
 
         //P6:Find the Maximum element in an array
-        int[] arr = {1, 21, 3, 455, 5, 43, 67};
+        int[] arr1 = {1, 21, 3, 455, 5, 43, 67};
         int max = 0;
-        for (int element : arr) {
+        for (int element : arr1) {
             if (element > max) {
                 max = element;
             }
@@ -90,9 +90,9 @@ public class PracticeArray {
 
 
         // Minimum value
-        int[] arr = {1, 21, 5, 465, 8, 45, 87};
+        int[] arr2 = {1, 21, 5, 465, 8, 45, 87};
         int min = arr[0];
-        for (int e : arr) {
+        for (int e : arr2) {
             if (e < min) {
                 min = e;
             }
@@ -101,7 +101,7 @@ public class PracticeArray {
 
 
 //        find whether an array is sorted or not
-        int[] arr = {1, 2, 3, 4, 5, 34, 67};
+        int[] arr3 = {1, 2, 3, 4, 5, 34, 67};
         boolean isSorted = true;
         for (int i = 0; i < arr.length - 1; i++) {
             if (arr[i] > arr[i + 1]) {
