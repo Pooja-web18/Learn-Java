@@ -1,5 +1,4 @@
 package OOPs;
-
 public class BasicsOOPs {
     public static void main(String[] args) {
         Person p1 = new Person();
@@ -12,14 +11,11 @@ public class BasicsOOPs {
 
         System.out.println(p1.age + " " + p1.name);
         System.out.println(p2.age + " " + p2.name);
-
         p1.eat();
         p2.walk();
         p2.walk(2);
-
     }
 }
-
 class Person {
     String name;
     int age;
