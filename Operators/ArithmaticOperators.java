@@ -17,6 +17,7 @@ public class ArithmaticOperators {
 //        diffrence in d++ and ++d
         System.out.println("d++  = " + (d++));
         System.out.println("++d = " + (++d));
+
     }
 
     public static class AssignmentOperators {

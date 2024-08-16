@@ -14,7 +14,7 @@ class Employee{
 }
 public class CustomClass {
     public static void main(String[] args) {
-        System.out.println("This is a custom class");
+//        System.out.println("This is a custom class");
 
 //        Instantiating a new OOPs.Employee Object
         Employee harry = new Employee();
@@ -24,14 +24,14 @@ public class CustomClass {
          harry.id = 15;
          harry.name = "CodeWithHarry";
          harry.salary = 2000;
-        int salary2 = harry.getSalary();
-        System.out.println("Salary for harry :" + salary2);
+        int salary = harry.getSalary();
+        System.out.println("Salary for harry :" + salary);
 
         john.id = 12;
          john.name = "john doe";
          john.salary = 3000;
-        int salary = john.getSalary();
-        System.out.println("Salary for john :" + salary);
+        int salary1 = john.getSalary();
+        System.out.println("Salary for john :" + salary1);
 
 //         Printing the Attributes
         System.out.println(harry.id);

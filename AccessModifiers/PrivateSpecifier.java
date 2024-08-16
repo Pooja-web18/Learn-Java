@@ -11,7 +11,7 @@ public class PrivateSpecifier {
 
 //        Same program as previous but single modification
 
-//        private int data;
+//       private int data;
 //        public static void main(String[] args){
 //            ps.data = 40;
 //        Here we set the value of the variable here using the object of example
